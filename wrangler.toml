@@ -1,0 +1,8 @@
+name = "tala-test-project"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+[assets]
+# Bind the built Vite assets to this name, used as env.ASSETS in worker.js
+binding = "ASSETS"
+directory = "./dist"
